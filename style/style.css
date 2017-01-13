@@ -1,0 +1,356 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font:12px sans-serif,"\5B8B\4F53";
+}
+ul{
+	list-style:none;
+}
+#header_adver{
+	width: 100%;
+	height: 60px;
+	background: #E93A14;
+}
+#header_adver img{
+	display: block;
+	width: 990px;
+	height: 60px;
+	margin:0 auto;
+}
+.header{
+	width: 990px;
+	height: 92px;
+	margin:0 auto;
+	background: #fff url(../images/header_right.png) no-repeat right bottom;
+}
+.header h1{
+	width: 193px;
+	height: 67px;
+	background: url(../images/logo.png) no-repeat center center;
+	text-indent: -9999px;
+	padding-top: 25px;
+	padding-left: 5px;
+	float: left;
+}
+.header h1 a{
+	display: block;
+	width: 190px;
+	height: 40px;	
+}
+.header div.search{
+	float: left;
+	width: 505px;
+	padding-top: 28px;
+
+}
+.header div.search input.text{
+	width: 370px;
+	height: 31px;
+	line-height: 31px;
+	margin-left: 50px;
+	padding-left: 6px;
+	border: 2px solid #22C64B;
+	border-right:none;
+	float: left;
+	color:#666;
+
+}
+.header div.search input.submit{
+	display: block;
+	width: 77px;
+	height: 36px;
+	float: left;
+	border:none;
+	background: url(../images/icon_header.png) no-repeat 0 -41px;
+	cursor: pointer;
+}
+.nav{
+	width: 100%;
+	height: 38px;
+	background: #44B04A;
+}
+.nav ul{
+	width: 990px;
+	height: 38px;
+	margin:0 auto;
+
+}
+.nav ul li{
+	display: inline-block;
+	height: 38px;
+	line-height: 20px;
+	font-size: 18px;
+
+}
+.nav ul li.active{
+	background: #16871B;
+}
+.nav ul li a{
+	display: block;
+	height: 14px;
+	color:#fff;
+	padding:10px 25px;
+	text-decoration: none;
+	position: relative;
+
+}
+.nav ul li a:hover{
+	border-bottom: 4px solid #16871B;
+}
+.nav ul li a em.icon_header{
+	background: url(../images/icon_header.png) no-repeat;
+	text-indent: -9999px;
+}
+.nav ul li a em.hot{
+	width: 55px;
+	height: 20px;
+	background-position: -30px 0;
+	position: absolute;
+	top: -5px;
+	right: -22px;
+}
+.nav ul li a em.reward{
+	width: 35px;
+	height: 20px;
+	background-position: -30px -20px;
+	position: absolute;
+	top: -5px;
+	right: -3px;
+}
+.bd_container{
+	width: 100%;
+	background: #f2f2f2;
+	padding-top: 12px;
+}
+.shop_logo{
+	width: 988px;
+	height: 185px;
+	margin:0 auto;
+	background: #fff;
+	border:1px solid #ddd;
+	-moz-box-shadow: 0px 1px 1px #DADAD9;
+	-webkit-box-shadow: 0px 1px 1px #DADAD9;
+	box-shadow: 0px 1px 1px #DADAD9;
+	font-size: 100%;
+}
+.shop_logo a.item_logo{
+	display: block;
+	width: 114px;
+	height: 76px;
+	line-height: 24px;
+	float: left;
+	text-align: center;
+	border:2px solid #fff;
+	color:#999;
+	text-decoration: none;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+.shop_logo a.item_logo:hover{
+	border:2px solid #FF7F00;
+}
+.shop_logo a.item_logo img{
+	display: block;
+	border:none;
+	padding-top: 10px;
+	padding-left: 22px;
+}
+.shop_logo a.arrow{
+	display: inline-block;
+	width: 36px;
+	height: 50px;
+	background: #c9c9c9;
+	margin-top: 16px;
+	margin-left: 40px;
+	text-align: center;
+}
+.shop_logo a.arrow:hover{
+	background: #777;
+}
+.shop_logo a.arrow img{
+	padding-top: 10px;
+	border:none;
+}
+ul.nav_tab{
+	width: 990px;
+	height: 42px;
+	line-height: 40px;
+	margin:0 auto;
+	padding:0;
+	margin-top: 12px;
+	border-bottom:1px solid #ddd;
+	text-align: center;
+}
+ul.nav_tab li{
+	float: left;
+	width: 250px;
+	height: 41px;
+	border:1px solid #ddd;
+	border-bottom:none;
+	margin-right: 4px;
+	font-size: 14px;
+
+}
+ul.nav_tab li a{
+	display: block;
+	width: 250px;
+	height: 40px;
+	text-decoration: none;
+	color:#999;
+	background: linear-gradient(to bottom, #FFF 50%,#f2f2f2 100%);
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#ffffff',endColorStr='#f2f2f2',gradientType='0'); 
+}
+ul.nav_tab li a.active{
+	height: 40px;
+	border-top: 2px solid #43AD48;
+}
+ul.nav_tab li a strong{
+	font-size: 18px;
+	font-weight: bold;
+	color: #f00;
+}
+ul.nav_tab li.night a strong{
+	font-size: 18px;
+	font-weight: bold;
+	color: #666;
+}
+
+.main{
+	width: 990px;
+	margin:0 auto;
+}
+/*首页产品列表*/
+.product{
+	width: 728px;
+	height: 1320px;
+	float: left;
+	position: relative;
+}
+.product .product_item{
+	width: 720px;
+	height: 180px;
+	margin-top: 12px;
+	background: #fff;
+	position: relative;
+	-moz-box-shadow: 0px 1px 2px #DADAD9;
+	-webkit-box-shadow: 0px 1px 2px #DADAD9;
+	box-shadow: 0px 1px 2px #DADAD9;
+}
+.product .product_item a{
+	display: block;
+	width: 720px;
+	height: 182px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+.product .product_item i{
+	height: 71px;
+	width: 71px;
+	text-indent: -9999px;
+	background: url(../images/bg-pro.png) no-repeat -72px -142px;
+	position: absolute;
+	left: -2px;
+	top: -3px;
+}
+.product .product_item dl{
+	width: 720px;
+	height: 180px;	
+}
+.product .product_item dl dt{
+	width: 492px;
+	height: 180px;
+	float: left;
+}
+.product .product_item dl dd{
+	width: 228px;
+	text-align: center;
+	float: left;
+}
+.product .product_item dl dd img{
+	display: block;
+	border:none;
+	padding-left: 42px;
+	padding-top: 20px;
+}
+.product .product_item dl dd.info{
+	width: 178px;
+	height: 98px;
+	margin-left: 25px;
+	border-bottom: 1px solid #ddd;
+	font-style: normal;
+	color:#999;
+	font-size: 12px;
+	line-height: 150%;
+}
+.product .product_item dl dd.sale{
+	height: 30px;
+	padding-top: 5px;
+	
+}
+.product .product_item dl dd.sale strong{
+	display: block;
+	font-size: 20px;
+	font-weight: 600;
+	color: #F83E53;
+}
+.product .product_item dl dd.bg_pro{
+	padding: 0;
+	margin: 0;
+	background: url(../images/bg-pro.png) no-repeat;
+}
+.product .product_item dl dd.sale_info{
+	width: 228px;
+	height: 33px;
+	line-height: 35px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	text-indent: 50px;
+	background-position: 24px -267px;
+	position: absolute;
+	top: 138px;
+	right: -5px;
+}
+/*侧栏*/
+.sidebar{
+	width: 252px;
+	height: 1330px;
+	background: #666;
+	margin-top: 12px;
+	float: right;
+}
+.button{
+	width: 728px;
+	height: 74px;
+	clear: both;
+	background: gray;
+	padding-top: 40px;
+}
+.button a{
+	display: block;
+	width: 256px;
+	height: 38px; 
+	line-height: 38px;
+	margin:0 auto;
+	text-align: center;
+	background: #fff;
+	color:#22C64B;
+	border: 1px solid #22C64B;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 16px;
+}
+.footer{
+	width: 100%;
+	height: 436px;
+	background: lightgreen;
+}
+.footer2{
+	width: 100%;
+	height: 125px;
+	background: red;
+}
