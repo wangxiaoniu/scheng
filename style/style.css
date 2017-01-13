@@ -3,7 +3,7 @@
 	margin:0;
 }
 body{
-	font:12px sans-serif,"\5B8B\4F53";
+	font:12px sans-serif;
 }
 ul{
 	list-style:none;
@@ -221,10 +221,11 @@ ul.nav_tab li.night a strong{
 	width: 990px;
 	margin:0 auto;
 }
+
 /*首页产品列表*/
 .product{
 	width: 728px;
-	height: 1320px;
+	height: 2250px;
 	float: left;
 	position: relative;
 }
@@ -316,18 +317,74 @@ ul.nav_tab li.night a strong{
 	right: -5px;
 }
 /*侧栏*/
-.sidebar{
+.sidebar h3{
+	height: 36px;
+	line-height: 30px;
+	font-size: 17px;
+	font-weight: normal;
+	border-top: 4px solid #44B148;
+	background: linear-gradient(to bottom, #eee 10%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#eeeeee',endColorStr='#ffffff',gradientType='0'); 
+	text-indent: 20px;
+}
+.sidebar_server{
 	width: 252px;
-	height: 1330px;
-	background: #666;
+	height: 372px;
+	/*height: 1330px;*/
+	background: #fff;
 	margin-top: 12px;
 	float: right;
 }
+/*每日推荐*/
+.sidebar_daily{
+	width: 252px;
+	height: 1904px;
+	background: #fff;
+	float: right;
+	margin-top: 20px;
+}
+.sidebar_daily .daily_item{
+	width: 215px;
+	height: 348px;
+	margin:20px auto;
+	text-align: center;
+	border-bottom: 1px dashed #eee;
+}
+.sidebar_daily .daily_item img{
+	border:none;
+}
+.sidebar_daily .daily_item a{
+	display: block;
+	text-decoration: none;
+}
+.sidebar_daily .daily_item p.item_info{
+	text-align: left;
+	font-size: 14px;
+	color: #474248;
+	line-height: 20px;
+}
+.sidebar_daily .daily_item p.item_price{
+	font-size: 20px;
+	color: #424740;
+	
+}
+.sidebar_daily .daily_item p.item_sale{
+	width: 217px;
+	height: 32px;
+	line-height: 31px;
+	margin:5px auto;
+	background: #FFE9CA;
+	color: #D6284D;
+	font-size: 14px;
+}
+.sidebar_daily .daily_item p.item_sale strong{
+	font-size: 20px;
+}
+/*每日推荐end*/
 .button{
 	width: 728px;
 	height: 74px;
 	clear: both;
-	background: gray;
 	padding-top: 40px;
 }
 .button a{
@@ -337,7 +394,7 @@ ul.nav_tab li.night a strong{
 	line-height: 38px;
 	margin:0 auto;
 	text-align: center;
-	background: #fff;
+	background: #F2F2F2;
 	color:#22C64B;
 	border: 1px solid #22C64B;
 	cursor: pointer;
