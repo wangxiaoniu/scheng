@@ -1,3 +1,5 @@
+// nav导航
+
 $(function(){
 if(!placeholderSupport()){   // 头部搜索框，判断浏览器是否支持 placeholder
     $('[placeholder]').focus(function() {
@@ -13,10 +15,11 @@ if(!placeholderSupport()){   // 头部搜索框，判断浏览器是否支持 pl
             input.val(input.attr('placeholder'));
         }
     }).blur();
+
 };
-})
+
+
 function placeholderSupport() {
     return 'placeholder' in document.createElement('input');
 }
 
-//nav导航
