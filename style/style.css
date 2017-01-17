@@ -209,12 +209,12 @@ ul.nav_tab li a.active{
 	height: 40px;
 	border-top: 2px solid #43AD48;
 }
-ul.nav_tab li a strong{
+ul.nav_tab li a.active strong{
 	font-size: 18px;
 	font-weight: bold;
 	color: #f00;
 }
-ul.nav_tab li.night a strong{
+ul.nav_tab li a strong{
 	font-size: 18px;
 	font-weight: bold;
 	color: #666;
@@ -223,8 +223,14 @@ ul.nav_tab li.night a strong{
 .main{
 	width: 990px;
 	margin:0 auto;
-}
 
+}
+.main_content.active{
+	display: block;
+}
+.main_content{
+	display: none;
+}
 /*首页产品列表*/
 .product{
 	width: 728px;
