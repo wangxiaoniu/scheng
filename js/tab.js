@@ -5,11 +5,25 @@ $(document).ready(function(){
         });
 
  // main导航选中状态切换
-
   $('.nav_tab li a').click(function(){
         	$(this).addClass("active");
         	$(this).parent("li").siblings("li").find("a").removeClass("active");
-        	var index = $(this).index();
-        	$('.main_content').eq(index).show().addClass('active').siblings().removeClass('active').hide();
         });
+
+  // main内div 隐藏显示切换
+  $('#tab1').click(function(){
+  		$('.main_content1').show();
+  		$('.main_content2').hide();
+
+  });
+  $('#tab2').click(function(){
+  		$('.main_content2').show();
+  		$('.main_content1').hide();
+
+  });
+  // 排序切换
+ 	$(".main_content2_info em a").click(function(){
+ 		$(this).addClass("active").siblings("a").removeClass("active");
+ 	});
+ 	
 });
